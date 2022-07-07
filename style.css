@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(to right, #4f3372, #9571a6, #d7afc5);
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    margin-top: 20%;
+}
+
+.button {
+    text-decoration: none;
+    border-radius: 7px;
+    border:none;
+    background-color: rgb(187, 179, 179);
+    cursor: pointer;
+    width: 15%;
+    padding: 15px 20px;
+    margin: 0.5rem;
+}
+
+.button:hover{
+    background-color: rgb(3, 3, 3, 70%);
+    color: white;
+}
+
+#timerValue{
+    text-decoration: none;
+    border-radius: 7px;
+    border:none;
+    background-color: rgb(187, 179, 179, 40%);
+    width: 15%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0.5rem;
+    text-align: center;
+}
+
